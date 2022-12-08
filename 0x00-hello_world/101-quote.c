@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char ch[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char ch[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	int n = 0;
 
 	while (ch[n] != '\0')
