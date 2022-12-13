@@ -1,9 +1,8 @@
 #include "main.h"
 /**
-* main - entry point
 * print_alphabet - a function that prints alphabet a-z in lowercase.
+* Description: a function that prints alhabets.
 * @void: accepts no argument.
-* Return: Always return 0
 */
 void print_alphabet(void)
 {
