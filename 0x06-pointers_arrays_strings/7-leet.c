@@ -24,7 +24,7 @@ char *leet(char *str)
 		{
 			str[i] = '0';
 		}
-		if (str[i] == 'o' || str[i] == 'T')
+		if (str[i] == 't' || str[i] == 'T')
 		{
 			str[i] = '7';
 		}
