@@ -12,7 +12,7 @@ char *cap_string(char *str)
 	i = 0;
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[i - 1] >= 32 && str[i - 1] <= 34
+		if ((str[i - 1] >= 32 && str[i - 1] <= 34)
 				|| str[i - 1] == 40
 				|| str[i - 1] == 41
 				|| str[i - 1] == 44
