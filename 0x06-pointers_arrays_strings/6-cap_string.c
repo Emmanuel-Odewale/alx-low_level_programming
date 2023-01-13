@@ -23,6 +23,7 @@ char *cap_string(char *str)
 				|| str[i - 1] == 9
 				|| str[i - 1] == 123
 				|| str[i - 1] == 125
+				|| i == 0
 				)
 		{
 			if (str[i] >= 'a' && str[i] <= 'z')
