@@ -16,17 +16,17 @@ int _strcmp(char *s1, char *s2)
 	{
 		if (s1[i] == s2[i])
 		{
-			return (rtn);
+			continue;
 		}
 		else if (s1[i] > s2[i])
 		{
 			rtn = 15;
-			return (rtn);
+			break;
 		}
 		else
 		{
 			rtn = -15;
-			return (rtn);
+			break;
 		}
 	}
 	return (rtn);
